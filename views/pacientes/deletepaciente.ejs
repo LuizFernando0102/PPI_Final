@@ -1,0 +1,11 @@
+<%- include('../layout') -%>
+<div class="container mt-4">
+  <form action="/pacientes/delete" method="post">
+    <div class="mb-3">
+      <label for="cpf" class="form-label">CPF:</label>
+      <input type="text" id="cpf" name="cpf" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-danger">Submit</button>
+  </form>
+</div>
+
